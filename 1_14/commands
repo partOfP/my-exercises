@@ -1,0 +1,2 @@
+docker build -t main-frontend-proj .. -f Dockerfile.frontend && docker run -p 127.0.0.1:5001:5001 main-frontend-proj
+docker build -t main-backend-proj .. -f Dockerfile.backend && docker run -p 127.0.0.1:8080:8080 main-backend-proj
