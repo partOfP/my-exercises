@@ -1,0 +1,1 @@
+docker build -t main-frontend-proj . && docker run -p 127.0.0.1:5001:5001 main-frontend-proj
